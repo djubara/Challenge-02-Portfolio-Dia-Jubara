@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  background-color: black;
+  color: grey;
+}
+
+body {
+
+  font-family: Arial;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  /* background-color: darkblue; */
+  justify-content: space-between;
+  padding: 5px 5px;
+  align-items: center;
+  border-bottom: solid grey 5px;
+}
+
+/* set the size of photo */
+.portrait {
+  width: 200px;
+  height: 200px;
+}
+
+.caption {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+a:hover {
+  color: beige;
+}
+
+.menuBar {
+  display: flex;
+  column-gap: 10px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+main {
+  display: flex;
+}
