@@ -40,6 +40,7 @@ a {
   text-decoration: none;
   color: inherit;
   font-weight: bold;
+  margin: 0px 10px 0px 10px;
 }
 
 a:hover {
@@ -53,26 +54,49 @@ a:hover {
 
 ul li {
   list-style-type: none;
+  flex-wrap: wrap;
 }
 
-main {
+/* main {
+  display: flex;
+} */
+
+#aboutMe {
   display: flex;
 }
 
-.aboutMe {
-  display: flex;
-}
-
-.aboutMeTitle {
+#aboutMeTitle {
   flex: 1;
-  margin: 10px;
+  margin: 0px 0px 0px 165px;
   text-align: right;
+  width: 10%;
 }
 
-.aboutMeDesc {
-  padding: 0px 20px;
-  margin: 0px 0px 0px 200px;
+#aboutMeDesc {
+  padding: 10px 140px 10px 10px;
+  margin: 0px 10px;
   border-left: solid grey 5px;
   text-align: justify;
   display: inline;
+  width: 90%;
+}
+
+#myWork {
+  display: flex;
+}
+
+#myWorkTitle {
+  flex: 1;
+  margin: 20px 0px 0px 174px;
+  text-align: right;
+  width: 10%;
+}
+
+#agileDevOpsImage {
+  padding: 0px;
+  margin: 20px 0px 0px 10px;
+  border-left: solid grey 5px;
+  text-align: justify;
+  display: inline;
+  width: 90%;
 }
