@@ -1,3 +1,3 @@
 # Challenge-02-Portfolio-Dia-Jubara
 A portfolio of Dia Jubara
-Deployed Application URL: github.com/djubara/Challenge-02-Portfolio-Dia-Jubara/settings/pages
+Deployed Application URL: https://djubara.github.io/Challenge-02-Portfolio-Dia-Jubara/
